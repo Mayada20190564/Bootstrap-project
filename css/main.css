@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-image: linear-gradient(to right,darkcyan 60%,white);
+}
+.navbar .navbar-brand img{
+    width: 80px;
+}
+.navbar-nav .nav-item a{
+    color:white;
+    font-family:cursive;
+    font-size: 15px;
+}
+.form-inline .btn{
+    color: darkcyan;
+    border-radius: 10px;
+    border: darkcyan 2px solid;
+}
+.form-inline .btn:hover{
+    color: white;
+    background-color: darkcyan;
+}
+.navbar-nav .nav-item a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.backGround{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 20px 0px;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+.header .line{
+    width: 500px;
+    height: 2px;
+    margin: auto;
+    background-image: linear-gradient(to right, teal 50%,white);
+    border-radius: 5px;
+}
+#aboutUs .container h1 , p{
+    color: white;
+    font-family: cursive;
+}
+.nav{
+    border-radius: 10px;
+    border: teal solid 3px;
+    width: 50%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+.nav .nav-item a{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+.nav .nav-item a:focus{
+    background-color: white;
+    color: black;
+    border-radius: 20px;   
+}
+.tab-pane .container .row img{
+    border-radius: 20px;
+    margin: 10px 0px;
+    border: black solid 1px;
+}
+
+#footer a{
+    color:white;
+    display: block;
+}
+#footer h1{
+    color: white;
+    font-size: 20px;
+}
+
+@media(max-width:750px){
+    .header .line{
+        width: 60%;
+    }
+}
