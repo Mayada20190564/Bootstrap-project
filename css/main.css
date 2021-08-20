@@ -10,18 +10,18 @@
 }
 .navbar-nav .nav-item a{
     color:white;
-    font-family:cursive;
     font-size: 15px;
 }
 .form-inline .btn{
-    color: darkcyan;
+    background-color:teal;
     border-radius: 10px;
     border: darkcyan 2px solid;
+    color: white;
 }
-.form-inline .btn:hover{
+/* .form-inline .btn:hover{
     color: white;
     background-color: darkcyan;
-}
+} */
 .navbar-nav .nav-item a:hover{
     background-color: white;
     color: black;
@@ -35,7 +35,6 @@
 .header h1{
     text-align: center;
     color: white;
-    font-family: cursive;
 }
 .header .line{
     width: 500px;
@@ -46,7 +45,6 @@
 }
 #aboutUs .container h1 , p{
     color: white;
-    font-family: cursive;
 }
 .nav{
     border-radius: 10px;
@@ -58,7 +56,6 @@
 .nav .nav-item a{
     color: white;
     text-align: center;
-    font-family: cursive;
 }
 .nav .nav-item a:focus{
     background-color: white;
@@ -87,4 +84,11 @@
     #gallary ul{
         width: 90%;
     }
+    .form-inline .btn{
+        background-color:white;
+        border-radius: 10px;
+        border: darkcyan 2px solid;
+        color: teal;
+    }
+    
 }
