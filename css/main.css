@@ -84,4 +84,7 @@
     .header .line{
         width: 60%;
     }
+    #gallary ul{
+        width: 90%;
+    }
 }
