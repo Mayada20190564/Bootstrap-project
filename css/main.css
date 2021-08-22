@@ -5,8 +5,9 @@
 .navbar{
     background-image: linear-gradient(to right,darkcyan 60%,white);
 }
-.navbar .navbar-brand img{
-    width: 80px;
+.navbar .navbar-brand i{
+    font-size: 40px;
+    color:white;
 }
 .navbar-nav .nav-item a{
     color:white;
@@ -18,10 +19,6 @@
     border: darkcyan 2px solid;
     color: white;
 }
-/* .form-inline .btn:hover{
-    color: white;
-    background-color: darkcyan;
-} */
 .navbar-nav .nav-item a:hover{
     background-color: white;
     color: black;
@@ -76,7 +73,21 @@
     color: white;
     font-size: 20px;
 }
-
+#footer .endLine{
+    background-color: black;
+    height: 1px;
+}
+#footer .copyR p{
+    font-size: 12px;
+}
+#footer .media li{
+    list-style: none;
+    display: inline-block;
+}
+#footer .media a{
+    font-size: 30px;
+    color: white;
+}
 @media(max-width:750px){
     .header .line{
         width: 60%;
